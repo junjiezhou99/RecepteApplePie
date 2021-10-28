@@ -1,0 +1,62 @@
+#background{
+    background-image: url("apple-pie.jpg");
+    background-size: 100%;
+}
+.ApplePie{
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    font-family: Arial, Times, sans-serif;
+    padding-bottom: 23%;
+    padding-top: 23%;
+    margin: 0%;
+}
+.description{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5%;
+}
+#center{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+.prep1{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.titleh1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.guiones{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5%;
+}
+ul.guiones {
+    list-style-type: none;
+}
+ul.guiones > li:before {
+    content: "- ";
+}
+.hr{
+    border: none;
+    height: 3px;
+    color: #333;
+    background-color: #333;
+    margin-bottom: 6%;
+}
+.numeros{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5%;
+    counter-reset: list;
+}
+ol.numeros {
+    list-style-type: none;
+}
+ol > li:before {
+    content: counter(list, lower-number) ") ";
+    counter-increment: list;
+}
